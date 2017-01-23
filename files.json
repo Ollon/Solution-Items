@@ -386,6 +386,7 @@
     },
     {
       "name": "Build.cmd",
+      "uniqueName": "Build.cmd",
       "use": "script",
       "lines": [
         "@echo off",
@@ -464,6 +465,7 @@
     },
     {
       "name": "Build.ps1",
+      "uniqueName": "Build.ps1",
       "use": "script",
       "lines": [
         "#",
@@ -580,6 +582,7 @@
     },
     {
       "name": "NuGet.Config",
+      "uniqueName": "NuGet.Config",
       "use": "build",
       "lines": [
         "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
@@ -620,7 +623,126 @@
       ]
     },
     {
+      "name": "RepoUtil.sln",
+      "uniqueName": "RepoUtil.sln",
+      "use": "build",
+      "lines": [
+        "Microsoft Visual Studio Solution File, Format Version 12.00",
+        "# Visual Studio 15",
+        "VisualStudioVersion = 15.0.26020.0",
+        "MinimumVisualStudioVersion = 10.0.40219.1",
+        "Project(\"{2150E333-8FDC-42A3-9474-1A3956D46DE8}\") = \"Build\", \"Build\", \"{DF65D6DA-6B4B-4455-AD07-C7B935162122}\"",
+        "\tProjectSection(SolutionItems) = preProject",
+        "\t\tBuild\\Build.proj = Build\\Build.proj",
+        "\tEndProjectSection",
+        "EndProject",
+        "Project(\"{2150E333-8FDC-42A3-9474-1A3956D46DE8}\") = \"Setup\", \"Setup\", \"{80CC246F-8055-40DB-B300-1BFC00E02D37}\"",
+        "EndProject",
+        "Project(\"{2150E333-8FDC-42A3-9474-1A3956D46DE8}\") = \"Dependencies\", \"Dependencies\", \"{2CEC92E5-E2F2-463E-91A1-B21E9FCB2D21}\"",
+        "EndProject",
+        "Project(\"{2150E333-8FDC-42A3-9474-1A3956D46DE8}\") = \"Targets\", \"Targets\", \"{704AD89B-761B-4509-8A6F-8F536ADD9AD7}\"",
+        "\tProjectSection(SolutionItems) = preProject",
+        "\t\tBuild\\Targets\\ProducesNoOutput.Imports.targets = Build\\Targets\\ProducesNoOutput.Imports.targets",
+        "\t\tBuild\\Targets\\ProducesNoOutput.Settings.props = Build\\Targets\\ProducesNoOutput.Settings.props",
+        "\t\tBuild\\Targets\\VSX.AssemblyInfo.targets = Build\\Targets\\VSX.AssemblyInfo.targets",
+        "\t\tBuild\\Targets\\VSX.Imports.targets = Build\\Targets\\VSX.Imports.targets",
+        "\t\tBuild\\Targets\\VSX.InternalsVisibleTo.targets = Build\\Targets\\VSX.InternalsVisibleTo.targets",
+        "\t\tBuild\\Targets\\VSX.References.targets = Build\\Targets\\VSX.References.targets",
+        "\t\tBuild\\Targets\\VSX.Settings.props = Build\\Targets\\VSX.Settings.props",
+        "\t\tBuild\\Targets\\VSX.VsSDK.targets = Build\\Targets\\VSX.VsSDK.targets",
+        "\tEndProjectSection",
+        "EndProject",
+        "Project(\"{2150E333-8FDC-42A3-9474-1A3956D46DE8}\") = \"Scripts\", \"Scripts\", \"{A9949D7A-37BE-42A9-A55A-703C74BB7C6C}\"",
+        "\tProjectSection(SolutionItems) = preProject",
+        "\t\tBuild\\Scripts\\CreateSolution.ps1 = Build\\Scripts\\CreateSolution.ps1",
+        "\t\tBuild\\Scripts\\FilesToJson.ps1 = Build\\Scripts\\FilesToJson.ps1",
+        "\tEndProjectSection",
+        "EndProject",
+        "Project(\"{2150E333-8FDC-42A3-9474-1A3956D46DE8}\") = \"NuGet\", \"NuGet\", \"{633BFFB5-28F4-4A32-AC72-4B3C8EFE9381}\"",
+        "\tProjectSection(SolutionItems) = preProject",
+        "\t\tSrc\\NuGet\\NuGet.Proj = Src\\NuGet\\NuGet.Proj",
+        "\tEndProjectSection",
+        "EndProject",
+        "Project(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"RepoUtility\", \"Src\\RepoUtility\\RepoUtility.csproj\", \"{162F897C-5C21-443A-ABA3-784BB80DA2C9}\"",
+        "EndProject",
+        "Project(\"{2150E333-8FDC-42A3-9474-1A3956D46DE8}\") = \"Repo\", \"Repo\", \"{59C9FD97-74BC-487E-B3A6-0F55CBBF8376}\"",
+        "\tProjectSection(SolutionItems) = preProject",
+        "\t\t.editorconfig = .editorconfig",
+        "\t\t.gitattributes = .gitattributes",
+        "\t\t.gitignore = .gitignore",
+        "\t\tBuild.cmd = Build.cmd",
+        "\t\tBuild.ps1 = Build.ps1",
+        "\t\tNuGet.Config = NuGet.Config",
+        "\t\tRestore.cmd = Restore.cmd",
+        "\t\tSetDevCommandPrompt.cmd = SetDevCommandPrompt.cmd",
+        "\tEndProjectSection",
+        "EndProject",
+        "Project(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"BuildSystem\", \"Src\\BuildSystem\\BuildSystem.csproj\", \"{C87B5F00-3922-4211-B52F-921A2C5E76F0}\"",
+        "EndProject",
+        "Project(\"{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}\") = \"SolutionSchema\", \"Src\\SolutionSchema\\SolutionSchema.csproj\", \"{9717066B-93AB-476C-90F5-510F7A9AE350}\"",
+        "EndProject",
+        "Global",
+        "\tGlobalSection(SolutionConfigurationPlatforms) = preSolution",
+        "\t\tDebug|Any CPU = Debug|Any CPU",
+        "\t\tDebug|x64 = Debug|x64",
+        "\t\tDebug|x86 = Debug|x86",
+        "\t\tRelease|Any CPU = Release|Any CPU",
+        "\t\tRelease|x64 = Release|x64",
+        "\t\tRelease|x86 = Release|x86",
+        "\tEndGlobalSection",
+        "\tGlobalSection(ProjectConfigurationPlatforms) = postSolution",
+        "\t\t{162F897C-5C21-443A-ABA3-784BB80DA2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU",
+        "\t\t{162F897C-5C21-443A-ABA3-784BB80DA2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU",
+        "\t\t{162F897C-5C21-443A-ABA3-784BB80DA2C9}.Debug|x64.ActiveCfg = Debug|Any CPU",
+        "\t\t{162F897C-5C21-443A-ABA3-784BB80DA2C9}.Debug|x64.Build.0 = Debug|Any CPU",
+        "\t\t{162F897C-5C21-443A-ABA3-784BB80DA2C9}.Debug|x86.ActiveCfg = Debug|Any CPU",
+        "\t\t{162F897C-5C21-443A-ABA3-784BB80DA2C9}.Debug|x86.Build.0 = Debug|Any CPU",
+        "\t\t{162F897C-5C21-443A-ABA3-784BB80DA2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU",
+        "\t\t{162F897C-5C21-443A-ABA3-784BB80DA2C9}.Release|Any CPU.Build.0 = Release|Any CPU",
+        "\t\t{162F897C-5C21-443A-ABA3-784BB80DA2C9}.Release|x64.ActiveCfg = Release|Any CPU",
+        "\t\t{162F897C-5C21-443A-ABA3-784BB80DA2C9}.Release|x64.Build.0 = Release|Any CPU",
+        "\t\t{162F897C-5C21-443A-ABA3-784BB80DA2C9}.Release|x86.ActiveCfg = Release|Any CPU",
+        "\t\t{162F897C-5C21-443A-ABA3-784BB80DA2C9}.Release|x86.Build.0 = Release|Any CPU",
+        "\t\t{C87B5F00-3922-4211-B52F-921A2C5E76F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU",
+        "\t\t{C87B5F00-3922-4211-B52F-921A2C5E76F0}.Debug|Any CPU.Build.0 = Debug|Any CPU",
+        "\t\t{C87B5F00-3922-4211-B52F-921A2C5E76F0}.Debug|x64.ActiveCfg = Debug|Any CPU",
+        "\t\t{C87B5F00-3922-4211-B52F-921A2C5E76F0}.Debug|x64.Build.0 = Debug|Any CPU",
+        "\t\t{C87B5F00-3922-4211-B52F-921A2C5E76F0}.Debug|x86.ActiveCfg = Debug|Any CPU",
+        "\t\t{C87B5F00-3922-4211-B52F-921A2C5E76F0}.Debug|x86.Build.0 = Debug|Any CPU",
+        "\t\t{C87B5F00-3922-4211-B52F-921A2C5E76F0}.Release|Any CPU.ActiveCfg = Debug|Any CPU",
+        "\t\t{C87B5F00-3922-4211-B52F-921A2C5E76F0}.Release|Any CPU.Build.0 = Debug|Any CPU",
+        "\t\t{C87B5F00-3922-4211-B52F-921A2C5E76F0}.Release|x64.ActiveCfg = Release|Any CPU",
+        "\t\t{C87B5F00-3922-4211-B52F-921A2C5E76F0}.Release|x64.Build.0 = Release|Any CPU",
+        "\t\t{C87B5F00-3922-4211-B52F-921A2C5E76F0}.Release|x86.ActiveCfg = Release|Any CPU",
+        "\t\t{C87B5F00-3922-4211-B52F-921A2C5E76F0}.Release|x86.Build.0 = Release|Any CPU",
+        "\t\t{9717066B-93AB-476C-90F5-510F7A9AE350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU",
+        "\t\t{9717066B-93AB-476C-90F5-510F7A9AE350}.Debug|Any CPU.Build.0 = Debug|Any CPU",
+        "\t\t{9717066B-93AB-476C-90F5-510F7A9AE350}.Debug|x64.ActiveCfg = Debug|Any CPU",
+        "\t\t{9717066B-93AB-476C-90F5-510F7A9AE350}.Debug|x64.Build.0 = Debug|Any CPU",
+        "\t\t{9717066B-93AB-476C-90F5-510F7A9AE350}.Debug|x86.ActiveCfg = Debug|Any CPU",
+        "\t\t{9717066B-93AB-476C-90F5-510F7A9AE350}.Debug|x86.Build.0 = Debug|Any CPU",
+        "\t\t{9717066B-93AB-476C-90F5-510F7A9AE350}.Release|Any CPU.ActiveCfg = Release|Any CPU",
+        "\t\t{9717066B-93AB-476C-90F5-510F7A9AE350}.Release|Any CPU.Build.0 = Release|Any CPU",
+        "\t\t{9717066B-93AB-476C-90F5-510F7A9AE350}.Release|x64.ActiveCfg = Release|Any CPU",
+        "\t\t{9717066B-93AB-476C-90F5-510F7A9AE350}.Release|x64.Build.0 = Release|Any CPU",
+        "\t\t{9717066B-93AB-476C-90F5-510F7A9AE350}.Release|x86.ActiveCfg = Release|Any CPU",
+        "\t\t{9717066B-93AB-476C-90F5-510F7A9AE350}.Release|x86.Build.0 = Release|Any CPU",
+        "\tEndGlobalSection",
+        "\tGlobalSection(SolutionProperties) = preSolution",
+        "\t\tHideSolutionNode = FALSE",
+        "\tEndGlobalSection",
+        "\tGlobalSection(NestedProjects) = preSolution",
+        "\t\t{704AD89B-761B-4509-8A6F-8F536ADD9AD7} = {DF65D6DA-6B4B-4455-AD07-C7B935162122}",
+        "\t\t{A9949D7A-37BE-42A9-A55A-703C74BB7C6C} = {DF65D6DA-6B4B-4455-AD07-C7B935162122}",
+        "\t\t{633BFFB5-28F4-4A32-AC72-4B3C8EFE9381} = {DF65D6DA-6B4B-4455-AD07-C7B935162122}",
+        "\t\t{59C9FD97-74BC-487E-B3A6-0F55CBBF8376} = {DF65D6DA-6B4B-4455-AD07-C7B935162122}",
+        "\tEndGlobalSection",
+        "EndGlobal"
+      ]
+    },
+    {
       "name": "Restore.cmd",
+      "uniqueName": "Restore.cmd",
       "use": "script",
       "lines": [
         "@echo off",
@@ -697,6 +819,7 @@
     },
     {
       "name": "SetDevCommandPrompt.cmd",
+      "uniqueName": "SetDevCommandPrompt.cmd",
       "use": "script",
       "lines": [
         "@echo off",
@@ -719,6 +842,7 @@
     },
     {
       "name": "Build.proj",
+      "uniqueName": "Build\\Build.proj",
       "use": "build",
       "lines": [
         "<Project xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">",
@@ -802,6 +926,7 @@
     },
     {
       "name": "ProducesNoOutput.Imports.targets",
+      "uniqueName": "Build\\Targets\\ProducesNoOutput.Imports.targets",
       "use": "build",
       "lines": [
         "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
@@ -832,6 +957,7 @@
     },
     {
       "name": "ProducesNoOutput.Settings.props",
+      "uniqueName": "Build\\Targets\\ProducesNoOutput.Settings.props",
       "use": "build",
       "lines": [
         "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
@@ -873,6 +999,7 @@
     },
     {
       "name": "Solution.project.json",
+      "uniqueName": "Build\\Targets\\Solution.project.json",
       "use": "build",
       "lines": [
         "{",
@@ -890,6 +1017,7 @@
     },
     {
       "name": "VSX.AssemblyInfo.targets",
+      "uniqueName": "Build\\Targets\\VSX.AssemblyInfo.targets",
       "use": "build",
       "lines": [
         "<Project xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">",
@@ -995,6 +1123,7 @@
     },
     {
       "name": "VSX.Imports.targets",
+      "uniqueName": "Build\\Targets\\VSX.Imports.targets",
       "use": "build",
       "lines": [
         "<Project xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">",
@@ -1014,6 +1143,7 @@
     },
     {
       "name": "VSX.InternalsVisibleTo.targets",
+      "uniqueName": "Build\\Targets\\VSX.InternalsVisibleTo.targets",
       "use": "build",
       "lines": [
         "<Project xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">",
@@ -1061,6 +1191,7 @@
     },
     {
       "name": "VSX.References.targets",
+      "uniqueName": "Build\\Targets\\VSX.References.targets",
       "use": "build",
       "lines": [
         "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
@@ -1206,6 +1337,7 @@
     },
     {
       "name": "VSX.Settings.props",
+      "uniqueName": "Build\\Targets\\VSX.Settings.props",
       "use": "build",
       "lines": [
         "<Project xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">",
@@ -1295,9 +1427,9 @@
         "  <PropertyGroup Condition=\" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' \"/>",
         "",
         "  <PropertyGroup>",
-        "    <SignAssembly Condition=\"'$(SignAssembly)'==''\">false</SignAssembly>",
-        "    <AssemblyOriginatorKeyFile></AssemblyOriginatorKeyFile>",
-        "    <PublicKey></PublicKey>",
+        "    <SignAssembly Condition=\"'$(SignAssembly)'==''\">true</SignAssembly>",
+        "    <AssemblyOriginatorKeyFile>$(StrongNameKeyDir)RepoUtilSharedKey.snk</AssemblyOriginatorKeyFile>",
+        "    <PublicKey>00240000048000009400000006020000002400005253413100040000010001007BCA17F845DB4E5D13226F934AE1E5CA58AF16FEA43679DA09CF1CA76CCB05633F2DE554F90430EEDBBC5734F37C4C0CC0E061417C6BE7C389E78B5F49FE5924AC705AAF013ABD518124316F38A739A467789B96A63CFC419877A29A1EB37C81684FB847A57755A3826B0C8CF4507B7BF811D1E1097B7522EBADCABD3899869C</PublicKey>",
         "  </PropertyGroup>",
         "",
         "  <Import Project=\"$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props\"",
@@ -1308,6 +1440,7 @@
     },
     {
       "name": "VSX.VsSDK.targets",
+      "uniqueName": "Build\\Targets\\VSX.VsSDK.targets",
       "use": "build",
       "lines": [
         "<Project xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">",

@@ -301,7 +301,7 @@
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EAlwaysTreatStructAsNotReorderableMigration/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EMigrateBlankLinesAroundFieldToBlankLinesAroundProperty/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EMigrateThisQualifierSettings/@EntryIndexedValue">True</s:Boolean>
-	<s:String x:Key="/Default/Environment/UpdatesManger/LastUpdateCheck/@EntryValue">01/17/2017 03:59:56</s:String>
+	<s:String x:Key="/Default/Environment/UpdatesManger/LastUpdateCheck/@EntryValue">01/27/2017 04:59:20</s:String>
 	<s:Boolean x:Key="/Default/Environment/UserInterface/HideVsMenus/@EntryValue">False</s:Boolean>
 	<s:String x:Key="/Default/Environment/UserInterface/ShortcutSchemeName/@EntryValue">VS</s:String>
 	<s:String x:Key="/Default/Housekeeping/AssemblyExport/AssemblyExportHistory/History/@EntryValue">&lt;AssemblyExportHisory&gt;&#xD;
@@ -330,6 +330,10 @@
   &lt;ExportElement Assembly="131076609368360137|C:\USERS\BMARSHALL\APPDATA\LOCAL\TEMP\SOGEQIL\DE26673D34\SYSTEM.COMPOSITION.TYPEDPARTS.DLL" Project="D:\ASSEMBLIES\System.Composition.TypedParts\System.Composition.TypedParts.csproj" /&gt;&#xD;
   &lt;ExportElement Assembly="131076609368280154|C:\USERS\BMARSHALL\APPDATA\LOCAL\TEMP\SOGEQIL\DE26673D34\SYSTEM.COMPOSITION.CONVENTION.DLL" Project="D:\ASSEMBLIES\System.Composition.Convention2\System.Composition.Convention2.csproj" /&gt;&#xD;
   &lt;ExportElement Assembly="131076609370158603|C:\USERS\BMARSHALL\APPDATA\LOCAL\TEMP\SOGEQIL\4682F888AB\CODEGENERATION.ROSLYN.TASKS.DLL" Project="D:\ASSEMBLIES\CodeGeneration.Roslyn.Tasks\CodeGeneration.Roslyn.Tasks.csproj" /&gt;&#xD;
+  &lt;ExportElement Assembly="131250386559492132|D:\ASSEMBLY\PROJECTSYSTEM\VS2017\MICROSOFT.VISUALSTUDIO.PROJECTSYSTEM.VS.IMPLEMENTATION.DLL" Project="D:\ASSEMBLIES\Microsoft.VisualStudio.ProjectSystem.VS.Implementation\Microsoft.VisualStudio.ProjectSystem.VS.Implementation.csproj" /&gt;&#xD;
+  &lt;ExportElement Assembly="131239750220000000|D:\ASSEMBLY\PROJECTSYSTEM\VS2017\MICROSOFT.VISUALSTUDIO.PROJECTSYSTEM.VS.DLL" Project="D:\ASSEMBLIES\Microsoft.VisualStudio.ProjectSystem.VS\Microsoft.VisualStudio.ProjectSystem.VS.csproj" /&gt;&#xD;
+  &lt;ExportElement Assembly="131239750220000000|D:\ASSEMBLY\PROJECTSYSTEM\VS2017\MICROSOFT.VISUALSTUDIO.PROJECTSYSTEM.DLL" Project="D:\ASSEMBLIES\Microsoft.VisualStudio.ProjectSystem\Microsoft.VisualStudio.ProjectSystem.csproj" /&gt;&#xD;
+  &lt;ExportElement Assembly="131250386558962123|D:\ASSEMBLY\PROJECTSYSTEM\VS2017\MICROSOFT.VISUALSTUDIO.PROJECTSYSTEM.IMPLEMENTATION.DLL" Project="D:\ASSEMBLIES\Microsoft.VisualStudio.ProjectSystem.Implementation\Microsoft.VisualStudio.ProjectSystem.Implementation.csproj" /&gt;&#xD;
 &lt;/AssemblyExportHisory&gt;</s:String>
 	<s:Boolean x:Key="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=TabNavigationExplainer/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/Housekeeping/FeedbackReport/SelectedUserIdentificator/@EntryValue">anonymous</s:String>
@@ -339,7 +343,7 @@
 	<s:String x:Key="/Default/Housekeeping/Layout/DialogWindows/OpenFromGacDialog/Position/@EntryValue">[170,73](640,480)</s:String>
 	<s:String x:Key="/Default/Housekeeping/Layout/DialogWindows/OptionsDialog/Position/@EntryValue">[-37,0](1406,768)</s:String>
 	<s:String x:Key="/Default/Housekeeping/Layout/DialogWindows/OptionsDialog/SelectedPageId/@EntryValue">CSharpBlankLinesPage</s:String>
-	<s:String x:Key="/Default/Housekeeping/Layout/DialogWindows/RefactoringWizardWindow/Location/@EntryValue">800,-370</s:String>
+	<s:String x:Key="/Default/Housekeeping/Layout/DialogWindows/RefactoringWizardWindow/Location/@EntryValue">720,-370</s:String>
 	<s:Boolean x:Key="/Default/Housekeeping/LiveTemplatesHousekeeping/HotspotSessionHintIsShown/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Housekeeping/RefactoringsMru/UseInline/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/Housekeeping/Search/SearchForExtendingInterfaces/@EntryValue">True</s:Boolean>
@@ -349,11 +353,11 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=1DB948F8CDE6CE49974E7AB8A2CD154D/EntryName/@EntryValue">Attribute</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=26669334663DB143B7773983265175EB/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=26669334663DB143B7773983265175EB/EntryName/@EntryValue">Static Class</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=26669334663DB143B7773983265175EB/Position/@EntryValue">2</s:Int64>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=2CAB0A567F30704CA99AA3EC249E3153/Position/@EntryValue">1</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=6DDE0CC164FB404D9921F6CF45EC19F4/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=6DDE0CC164FB404D9921F6CF45EC19F4/EntryName/@EntryValue">MEF Export Provider</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=6DDE0CC164FB404D9921F6CF45EC19F4/Position/@EntryValue">6</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=26669334663DB143B7773983265175EB/Position/@EntryValue">1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=2CAB0A567F30704CA99AA3EC249E3153/Position/@EntryValue">2</s:Int64>
+	
+	
+	
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=6FAA6736247D464489DF536819A6D103/Position/@EntryValue">3</s:Int64>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=7B10AC30B0320A4F95A3763001E1DBF6/Position/@EntryValue">5</s:Int64>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/QuickList/=F0CA621CDF5AB24282D8CDC11C520997/Entry/=9BB83ED0FF792E47BAAB217C25589C77/Position/@EntryValue">4</s:Int64>
@@ -416,45 +420,29 @@ namespace $NAMESPACE$&#xD;
 {&#xD;
   public static class $CLASS$ {$END$}&#xD;
 }</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/@KeyIndexDefined">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/CustomProperties/=FileName/@EntryIndexedValue">MefExportProvider</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Description/@EntryValue">MEF Export Provider</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Field/=CLASS/InitialRange/@EntryValue">-1</s:Int64>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Field/=CLASS/Order/@EntryValue">2</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Field/=HEADER/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Field/=HEADER/Expression/@EntryValue">fileheader()</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Field/=HEADER/InitialRange/@EntryValue">-1</s:Int64>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Field/=HEADER/Order/@EntryValue">0</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Field/=NAMESPACE/Order/@EntryValue">1</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Reformat/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6DDE0CC164FB404D9921F6CF45EC19F4/Text/@EntryValue">$HEADER$&#xD;
-&#xD;
-using System.Composition;&#xD;
-&#xD;
-namespace $NAMESPACE$&#xD;
-{&#xD;
-&#xD;
-    public interface I$CLASS$ {$END$}&#xD;
-&#xD;
-    [Shared]&#xD;
-    [Export(typeof(I$CLASS$ ))]&#xD;
-    public class $CLASS$ &#xD;
-    {&#xD;
-        [ImportingConstructor]&#xD;
-        public $CLASS$(){$END$}&#xD;
-    }&#xD;
-}</s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
